@@ -738,7 +738,7 @@ prisonlifehub.TextScaled = true
 prisonlifehub.TextSize = 14.000
 prisonlifehub.TextWrapped = true
 prisonlifehub.MouseButton1Down:connect(function()
-    local unc = "https://raw.githubusercontent.com/NathTheDev/AlysseAndroid/main/AlysseUI.lua"
+    local unc = "https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua"
     local raw = game:HttpGet(unc)
 
     loadstring(raw)()
